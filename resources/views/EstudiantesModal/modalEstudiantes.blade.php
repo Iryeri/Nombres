@@ -2,6 +2,21 @@
 <link rel="stylesheet" type="text/css" href="css/modal.css">
 
 
+<!--TAMAÑOS
+
+modal-dialog modal-xl
+modal-dialog modal-lg
+modal-dialog modal-sm
+
+
+SCROLL
+modal-dialog modal-dialog-scrollable
+
+
+-->
+
+
+
 <!--MODALS-->
     <!-- MODAL AGREGAR-->
     <div class="modal fade" id="agregarEstudiante" tabindex="-1" aria-labelledby="labelAgregarEstudiante" aria-hidden="true">
