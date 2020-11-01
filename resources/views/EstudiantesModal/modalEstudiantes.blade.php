@@ -1,10 +1,29 @@
+
+<link rel="stylesheet" type="text/css" href="css/modal.css">
+
+
+<!--TAMAÑOS
+
+modal-dialog modal-xl
+modal-dialog modal-lg
+modal-dialog modal-sm
+
+
+SCROLL
+modal-dialog modal-dialog-scrollable
+
+
+-->
+
+
+
 <!--MODALS-->
     <!-- MODAL AGREGAR-->
-    <div class="modal fade" id="agregarEstudiante" tabindex="-1" aria-labelledby="exampleagregarEstudiante" aria-hidden="true">
+    <div class="modal fade" id="agregarEstudiante" tabindex="-1" aria-labelledby="labelAgregarEstudiante" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleagregarEstudiante">Datos</h5>
+                        <h5 class="modal-title col-11 text-center col-11 text-center" id="labelAgregarEstudiante">Nuevo Registro</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -32,11 +51,11 @@
 
 
     <!-- MODAL MOSTRAR-->
-        <div class="modal fade" id="mostrarEstudiante" tabindex="-1" aria-labelledby="exampleMostrarEstudiante" aria-hidden="true">
+        <div class="modal fade" id="mostrarEstudiante" tabindex="-1" aria-labelledby="labelMostrarEstudiante" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleMostrarEstudiante">Mostrar registro</h5>
+                        <h5 class="modal-title col-11 text-center" id="labelMostrarEstudiante">Mostrar Registro</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -65,11 +84,11 @@
 
 
     <!-- MODAL EDITAR-->
-        <div class="modal fade" id="editarEstudiante" tabindex="-1" aria-labelledby="exampleEditarEstudiante" aria-hidden="true">
+        <div class="modal fade" id="editarEstudiante" tabindex="-1" aria-labelledby="labelEditarEstudiante" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleEditarEstudiante">Datos a editar</h5>
+                            <h5 class="modal-title col-11 text-center" id="labelEditarEstudiante">Editar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
@@ -99,11 +118,11 @@
 
 
     <!-- MODAL ELIMINAR-->
-        <div class="modal fade" id="eliminarEstudiante" tabindex="-1" aria-labelledby="exampleEliminarEstudiante" aria-hidden="true">
+        <div class="modal fade" id="eliminarEstudiante" tabindex="-1" aria-labelledby="labelEliminarEstudiante" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleEliminarEstudiante">Registro a eliminar</h5>
+                            <h5 class="modal-title col-11 text-center" id="labelEliminarEstudiante">Eliminar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>

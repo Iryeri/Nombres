@@ -1,5 +1,6 @@
+@extends('layouts.especial')
 @extends('EstudiantesModal.modalEstudiantes')
-
+@section('content')
     <head>
         
         <title>Estudiantes</title>
@@ -51,7 +52,7 @@
                                         <tbody>
                                             @foreach($estudiantes as $estudiante)
                                             <tr>
-                                                <td>{{$estudiante->id}}</td>
+                                                <td>{{$estudiante->idEstudiante}}</td>
                                                 <td>{{$estudiante->nombre}}</td>
                                                 <td>{{$estudiante->apellido}}</td>
                                                 <td>
@@ -71,4 +72,6 @@
                 <br>
                 <center><a href="/home" class="btn btn-dark">Ir al menú principal</a></center>
             </div>
-        </div>   
+        </div> 
+    </body>  
+@endsection

@@ -13,7 +13,7 @@ $(document).ready(function ()
                 {
                     console.log(response)
                     $('#agregarEstudiante').modal('hide')
-                    alert("Registro exitoso!");
+                    alert("/n" + "Registro exitoso!");
                     location.reload();
                     $('#agregarForm')[0].reset()
                 },
